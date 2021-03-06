@@ -1,10 +1,11 @@
 # Оплата через кашелек Roskassa
 
-Чтобы устоновить пакет используйте комманду composer require rkassa/payment
-composer update - обнавляет компоненты из composer.json
-dump-autoload - находит все классы которые необходимо включить
-
-php artisan vendor-publish копирует файлы в нужнные места
+Чтобы устоновить пакет используйте 
+------------
+            composer require rkassa/payment добовлеяте пакет на ваш проект
+            composer update - обнавляет компоненты из composer.json
+            dump-autoload - находит все классы которые необходимо включить
+            php artisan vendor-publish копирует файлы в нужнные места
 
 Для начало посмотрите файл .env создайте переменные 
 ------------
