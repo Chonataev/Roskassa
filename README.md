@@ -1,4 +1,5 @@
 # Оплата через кашелек Roskassa
+=============================
 Чтобы устоновить пакет используйте комманду composer require rkassa/payment
 composer update - обнавляет компоненты из composer.json
 dump-autoload - находит все классы которые необходимо включить
