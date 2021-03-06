@@ -1,0 +1,24 @@
+{
+    "name": "rkassa/payment",
+    "description": "'rkassa simple package'",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chontaev",
+            "email": "adgjoed1@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rkassa\\Payment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Rkassa\\Payment\\RkassaServiceProvider"   
+            ]
+        }
+    }
+}
