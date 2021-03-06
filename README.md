@@ -14,8 +14,9 @@ php artisan vendor-publish копирует файлы в нужнные мес�
             local       =    'ru' || 'en'
 ------------
 #Простой пример контроллера
-            <?php
+            
 
+            <?php
             namespace App\Http\Controllers;
 
             use Illuminate\Http\Request;
